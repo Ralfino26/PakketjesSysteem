@@ -1,28 +1,23 @@
-# Logs
-logs
-*.log
+# 📦 Dependency folders
+node_modules/
+.netlify/
+
+# 🔐 Environment files
+.env
+.env.*  # future-proofing
+
+# ⚙️ Build output
+dist/
+
+# 💩 VSCode & OS clutter
+.DS_Store
+.vscode/
+Thumbs.db
+
+# 📄 Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-.env
-
-.netlify
+# 📦 Lockfile junk als je ooit yarn gebruikt
+yarn.lock
