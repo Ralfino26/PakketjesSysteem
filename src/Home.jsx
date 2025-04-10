@@ -20,7 +20,7 @@ const courierRules = {
     "De Koerant",
   ],
   DPD: [
-    "DE KOERANT",
+    "De Koerant",
   ],
   "Mondial Relay": [
     "Aqua service",
