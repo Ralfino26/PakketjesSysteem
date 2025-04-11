@@ -6,8 +6,8 @@ import { supabase } from "./supabase";
 // Regels per koerier (zoals in Couriers.jsx)
 const courierRules = {
   Bpost: [
-    "Greenhouse Locker",
-    "Postbode",
+    "Greenhouse Locker (download de bpost app)",
+    "Meegeven aan B-Postbode als die langskomt",
     "Dagbladhandel Lammens",
     "De Koerant",
   ],
@@ -20,7 +20,7 @@ const courierRules = {
     "De Koerant",
   ],
   DPD: [
-    "De Koerant",
+    "DE KOERANT",
   ],
   "Mondial Relay": [
     "Aqua service",
